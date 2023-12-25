@@ -389,7 +389,7 @@ async def startmute(event):
             return await edit_delete(event, "**- لا تستطــع كتـم نفسـك**")
         if event.chat_id == 1260465030 or event.chat_id == 6700336976 or event.chat_id == 6700336976:
             return await edit_delete(event, "**╮ ❐ دي لا يمڪنني كتـم احـد مطـورين السـورس  ❏╰**")
-        if event.chat_id == 6700336976 or event.chat_id == 6700336976 or event.chat_id == 5502537272:
+        if event.chat_id == 6700336976 or event.chat_id == 6611904446 or event.chat_id == 5502537272:
             return await edit_delete(event, "**╮ ❐ دي . . لا يمڪنني كتـم مطـور السـورس  ❏╰**")
         try:
             mute(event.chat_id, event.chat_id)
@@ -418,7 +418,7 @@ async def startmute(event):
             return await edit_or_reply(event, "**- عــذراً .. لا استطيــع كتــم نفســي**")
         if user.id == 6700336976 or user.id == 6700336976 or user.id == 6700336976:
             return await edit_or_reply(event, "**╮ ❐ دي لا يمڪنني كتـم احـد مطـورين السـورس  ❏╰**")
-        if user.id == 5502537272 or user.id == 6700336976 or user.id == 6700336976:
+        if user.id == 5502537272 or user.id == 6611904446 or user.id == 6700336976:
             return await edit_or_reply(event, "**╮ ❐ دي . . لا يمڪنني كتـم مطـور السـورس  ❏╰**")
         if is_muted(user.id, event.chat_id):
             return await edit_or_reply(
