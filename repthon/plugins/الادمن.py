@@ -67,8 +67,9 @@ UNMUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
 
 plugin_category = "الادمن"
 
-repthon_mute = "https://graph.org/file/00478b30c7e13bc2a183d.jpg"
-repthon_ban = "https://graph.org/file/151f4feaad21a801d040d.jpg"
+repthon_mute = "
+https://graph.org/file/98c8a5c3e541c7a6f1ea0.jpg"
+repthon_ban = "https://graph.org/file/98c8a5c3e541c7a6f1ea0.jpg"
 
 ADMZ = gvarstatus("R_ADMIN") or "رفع مشرف"
 UNADMZ = gvarstatus("R_UNADMIN") or "تنزيل مشرف"
