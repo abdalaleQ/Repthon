@@ -78,7 +78,7 @@ async def fetch_info(replied_user, event):
     user_bio = "لاتـوجـد نبـذة" if not user_bio else user_bio
     rotbat = "⌁  مبرمج الـسـورس 𓄂𓆃 ⌁" if user_id == 6700336976 else ("⌁ العضـو 𓅫 ⌁")
     rotbat = "⌁ مـالـك الـحسـاب 𓀫 ⌁" if user_id == (await event.client.get_me()).id and user_id != 6700336976  else rotbat
-    caption = "✛━━━━━━━━━━━━━✛\n"
+    caption = "✛━عَنَدما،اتجاهلك‌"لا،تحاول‌معَي‌كل​​​​زق‌وذِلفَ━✛\n"
     caption += f"<b> {REP_EM}╎الاسـم    ⇠ </b> {full_name}\n"
     caption += f"<b> {REP_EM}╎المعـرف  ⇠ </b> {username}\n"
     caption += f"<b> {REP_EM}╎الايـدي   ⇠ </b> <code>{user_id}</code>\n"
@@ -87,7 +87,7 @@ async def fetch_info(replied_user, event):
     caption += f"<b> {REP_EM}╎الحساب ⇠ </b> "
     caption += f'<a href="tg://user?id={user_id}">{first_name}</a>'
     caption += f"\n<b> {REP_EM}╎البايـو    ⇠ </b> {user_bio} \n"
-    caption += f"✛━━آبَتعٍدِوُآ عٍن طُرٍيقٌي فُهـذَهـ رٍسآلُِتي لُِڪم.━✛"
+    caption += f"✛━عَنَدما،اتجاهلك‌"لا،تحاول‌معَي‌كل​​​​زق‌وذِلفَ━✛"
     return photo, caption
 
 @zq_lo.rep_cmd(
