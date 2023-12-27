@@ -87,7 +87,7 @@ async def fetch_info(replied_user, event):
     caption += f"<b> {REP_EM}╎الحساب ⇠ </b> "
     caption += f'<a href="tg://user?id={user_id}">{first_name}</a>'
     caption += f"\n<b> {REP_EM}╎البايـو    ⇠ </b> {user_bio} \n"
-    caption += f"✛━━ @T_5_G ━المطور━✛"
+    caption += f"✛━المطور━ @T_5_G ━━✛"
     return photo, caption
 
 @zq_lo.rep_cmd(
