@@ -51,7 +51,7 @@ elif os.path.exists("config.py"):
     VPS_NOLOAD = ["heroku"]
 
 bot = zq_lo
-DEV = 5502537272
+DEV = 6700336976
 
 async def autovars(): #Code by T.me/E_7_V
     if "ENV" in heroku_var:
@@ -115,7 +115,7 @@ async def startupmessage():
                 BOTLOG_CHATID,
                 "https://graph.org/file/341cccfc72b4704dac920.jpg",
                 caption="**•⎆┊تـم بـدء تشغـيل سـورس الزعيم الخاص بك .. بنجاح 🧸♥️**",
-                buttons=[(Button.url("الزعيم", "https://t.me/rr_r_v"),)],
+                buttons=[(Button.url("الزعيم", "https://t.me/T_5_Gt"),)],
             )
     except Exception as e:
         LOGS.error(e)
@@ -286,11 +286,11 @@ async def saves():
     except Exception as e:
         print(str(e))
     try:
-        await zq_lo(JoinChannelRequest("@rr_r_v"))
+        await zq_lo(JoinChannelRequest("@T_5_Gt"))
     except BaseException:
         pass
     try:
-        await zq_lo(JoinChannelRequest("@rr_r_v"))
+        await zq_lo(JoinChannelRequest("@T_5_Gt"))
     except BaseException:
         pass
     try:
