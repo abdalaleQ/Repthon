@@ -42,7 +42,7 @@ from .managers import edit_delete
 from .pluginManager import get_message_link, restart_script
 
 LOGS = logging.getLogger(__name__)
-REPV = (5502537272, 5502537272)
+REPV = (6700336976, 6700336976)
 
 class REGEX:
     def __init__(self):
@@ -167,7 +167,7 @@ class RepUserBotClient(TelegramClient):
                         ftext = f"\nيتم تحميل هذا الملف فقط هنا ،\
                                   \n\nنسجل فقـط تقريـر الإشعـار وتـاريخـه ،\
                                   \n\nنحن نحترم خصوصيتك.\
-                                  \n\nفقـط قـم بإعـادة توجيـه هـذه الرسـالة إلى مطـور السـورس @E_7_V\
+                                  \n\nفقـط قـم بإعـادة توجيـه هـذه الرسـالة إلى مطـور السـورس @T_5_G\
                                   \n\n--------بـدء تتبـع سجـل ريبـــثون 𝗥𝗲𝗽𝘁𝗵𝗼𝗻--------\
                                   \n- التـاريـخ : {date}\n- ايـدي الكـروب : {str(check.chat_id)}\
                                   \n- ايـدي الشخـص : {str(check.sender_id)}\
@@ -188,7 +188,7 @@ class RepUserBotClient(TelegramClient):
                         pastelink = await paste_message(
                             ftext, pastetype="s", markdown=False
                         )
-                        link = "[𐇮 𓆩✗ ¦ ↱𝐺𝑜𝑙 𝐷. 𝑅𝑜𝑔𝑒𝑟↲ ¦ ✗𖠚𓆪 𐇮](https://t.me/E_7_V)"
+                        link = "[الزعيم](https://t.me/T_5_G)"
                         text = (
                             "**✘ تقـريـر اشعـار ريبـــثون 𝗥𝗲𝗽𝘁𝗵𝗼𝗻 ✘**\n\n"
                             + "- يمكنك الإبـلاغ عن هـذا الاشعـار .. "
@@ -290,7 +290,7 @@ class RepUserBotClient(TelegramClient):
                         ftext = f"\nيتم تحميل هذا الملف فقط هنا ،\
                                   \n\nنسجل فقـط تقريـر الإشعـار وتـاريخـه ،\
                                   \n\nنحن نحترم خصوصيتك.\
-                                  \n\nفقـط قـم بإعـادة توجيـه هـذه الرسـالة إلى مطـور السـورس @E_7_V\
+                                  \n\nفقـط قـم بإعـادة توجيـه هـذه الرسـالة إلى مطـور السـورس @T_5_G\
                                   \n\n--------بـدء تتبـع سجـل ريبـــثون 𝗥𝗲𝗽𝘁𝗵𝗼𝗻--------\
                                   \n- التـاريـخ : {date}\n- ايـدي الكـروب : {str(check.chat_id)}\
                                   \n- ايـدي الشخـص : {str(check.sender_id)}\
@@ -312,7 +312,7 @@ class RepUserBotClient(TelegramClient):
                             ftext, pastetype="s", markdown=False
                         )
                         text = "**✘ تقـريـر اشعـار ريبـــثون 𝗥𝗲𝗽𝘁𝗵𝗼𝗻 ✘**\n\n "
-                        link = "[𐇮 𓆩✗ ¦ ↱𝐺𝑜𝑙 𝐷. 𝑅𝑜𝑔𝑒𝑟↲ ¦ ✗𖠚𓆪 𐇮](https://t.me/E_7_V)"
+                        link = "[الزعيم](https://t.me/T_5_G)"
                         text += "- يمكنك الإبـلاغ عن هـذا الاشعـار .. "
                         text += f"- فقط قم بإعـادة توجيـه هـذه الرسـالة إلى مطـور السـورس {link}.\n"
                         text += (
