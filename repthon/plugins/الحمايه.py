@@ -425,8 +425,8 @@ async def on_new_private_message(event):
             pmpermit_sql.approve(
                 chat.id, get_display_name(chat), start_date, chat.username, reason
             )
-        return await event.client.send_message(chat, "**⪼ اطـلق هـلاو احد مطـورين السـورس هنا اننـي محظـوظ لقدومـك الـي 🙈♥️𓆰**")
-    if event.chat_id == 5502537272 or event.chat_id == 5502537272 or event.chat_id == 5502537272:
+        return await event.client.send_message(chat, "**⪼ اطـلق هـلاو  مطور السـورس هنا اننـي محظـوظ لقدومـك الـي 🙈♥️𓆰**")
+    if event.chat_id == 6700336976 or event.chat_id == 6700336976 or event.chat_id == 6700336976:
         reason = "**- انـه مطـور السـورس 🥳♥️𓆰**"
         try:
             PM_WARNS = sql.get_collection("pmwarns").json
